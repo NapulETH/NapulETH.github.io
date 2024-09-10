@@ -17,6 +17,8 @@ import { useTranslation } from "react-i18next";
 import { IoLocationOutline, IoCalendarClear } from "react-icons/io5";
 import { TbLocationFilled } from "react-icons/tb";
 
+import { Audio, ThreeDots } from 'react-loader-spinner'
+
 
 interface Event {
     title: string
@@ -86,7 +88,7 @@ function SideEvents() {
                 <h5 className=" text-black z-50 text-4xl SemiBold text-center mb-3 lg:mb-6 lg:px-28 leading-normal mt-8 lg:mt-0 w-11/12 lg:w-full">
                     {t("sideEvents")}
                 </h5>
-                <p className="block text-[#2E2E2E] Medium text-2xl lg:text-2xl text-center lg:px-28 leading-normal mt-8 lg:mb-4 lg:mt-0 w-11/12 lg:w-full">
+                <p className="block text-[#2E2E2E] Medium text-2xl lg:text-2xl text-center lg:px-28 leading-normal mt-8 mb-12 lg:mb-4 lg:mt-0 w-11/12 lg:w-full">
                     {t('sideEventsPara')}
                 </p>
                 <h6 className="hidden lg:w-1/2 w-10/12 text-black p-4 bg-white border-4 border-[#eddb55] text-xl xl:text-2xl Medium leading-normal text-center mt-10 mb-20 lg:my-16">
@@ -103,7 +105,7 @@ function SideEvents() {
                                     return (
                                         <Link href={event.link && event.link != "none" ? event.link : "no-link"} target="_blank" className="w-full h-fit" onClick={(e) => { if (!event.link || event.link == "none") e.preventDefault() }}>
                                             <div key={key} className="w-full xl:w-auto h-fit flex flex-col justify-center items-center lg:flex-row lg:items-center lg:justify-stretch gap-3">
-                                                <div className=" w-full aspect-square lg:w-[13vw] lg:h-[13vw] shadow-sm rounded-md border" style={{
+                                                <div className=" w-full aspect-square lg:w-[13vw] lg:h-[13vw] mt-8 lg:mt-0 shadow-sm rounded-md border-4 border-[#eddb55]" style={{
                                                     backgroundImage: `url('${event.image_url}')`,
                                                     backgroundPosition: "center",
                                                     backgroundRepeat: "no-repeat",
@@ -145,8 +147,17 @@ function SideEvents() {
 
                         </div>
                     ) : (
-                        <div className="flex flex-row items-center justify-center relative px-10 lg:my-10 w-11/12">
-                            <div></div>
+                        <div className="flex flex-row items-center justify-center relative px-10 lg:my-20 w-11/12">
+                            <ThreeDots
+                                visible={true}
+                                height="100"
+                                width="100"
+                                color="#F2D92F"
+                                radius="9"
+                                ariaLabel="three-dots-loading"
+                                wrapperStyle={{}}
+                                wrapperClass=""
+                            />
                         </div>
                     )
                 }
@@ -184,7 +195,7 @@ function SideEvents() {
                     </section>
                 ) : (
                     <div className="flex flex-row items-center justify-center relative px-10 lg:my-10 w-11/12">
-                        <div></div>
+
                     </div>
                 )
             }

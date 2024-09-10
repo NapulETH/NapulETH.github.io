@@ -9,10 +9,10 @@ import { useTranslation } from "react-i18next";
 import 'react-multi-carousel/lib/styles.css';
 import { useEffect, useState } from "react";
 import cloudBase from '@assets/cloud base2.svg'
-import map1 from '@assets/Planimetria SMN Piano Terra.webp'
-import map21 from '@assets/Palazzo Gravina-1.webp'
-import map22 from '@assets/Palazzo Gravina-2.webp'
-import map23 from '@assets/Palazzo Gravina-3.webp'
+import map1 from '@assets/m1.webp'
+import map21 from '@assets/m21.webp'
+import map22 from '@assets/m22.webp'
+import map23 from '@assets/m23.webp'
 
 
 export default function Map() {
