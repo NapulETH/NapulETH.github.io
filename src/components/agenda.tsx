@@ -108,6 +108,8 @@ import s95 from '@assets/SoeHaghighi.jpg.jpeg'
 import s96 from '@assets/viktor.jpeg'
 import s97 from '@assets/Dmitry.jpeg'
 import s98 from '@assets/LucasBonnard.jpg'
+import s99 from '@assets/Paolone.jpg'
+import s100 from '@assets/Lukas Meilhammer.jpg'
 
 const Agenda = () => {
 
@@ -238,13 +240,13 @@ const Agenda = () => {
         },
         {
             id: 5,
-            title: '',
+            title: ' Making crypto communities funny again',
             subtitle: "",
             stage: "main",
             speakers: [
                 {
-                    name: "Luca Boiardi",
-                    image: s22.src
+                    name: "Paolone",
+                    image: s99.src
                 }
             ],
             day: 1,
@@ -253,7 +255,7 @@ const Agenda = () => {
             isWorkshop: false,
             type: "talk",
             lang: "en",
-            topics: ["marketing", "it", "community"]
+            topics: ["marketing", "community"]
         },
         {
             id: 6,
@@ -370,13 +372,13 @@ const Agenda = () => {
         },
         {
             id: 9,
-            title: 'Protocol Asset and Sovereign Token',
+            title: 'The growth of the web 3 community in Italy',
             subtitle: "",
             stage: "main",
             speakers: [
                 {
-                    name: "Suning Yao",
-                    image: s84.src
+                    name: "Luca Boiardi",
+                    image: s22.src
                 }
             ],
             day: 1,
@@ -384,8 +386,8 @@ const Agenda = () => {
             end: "17:00",
             isWorkshop: false,
             type: "talk",
-            lang: "en",
-            topics: ['digital identity']
+            lang: "it",
+            topics: ['it', 'community']
         },
 
         // Day 1, Stage 2
@@ -744,13 +746,13 @@ const Agenda = () => {
         },
         {
             id: 25,
-            title: 'Web3 Marketing: How Projects can Leverage the Hourglass ',
+            title: 'The critical role of reputation and relationships in web3',
             subtitle: "",
             stage: "stage 3",
             speakers: [
                 {
-                    name: "Dayana Aleksandrova",
-                    image: s25.src
+                    name: "Lukas Meilhammer",
+                    image: s100.src
                 }
             ],
             day: 1,
@@ -796,7 +798,7 @@ const Agenda = () => {
         },
         {
             id: 27,
-            title: 'ERC-7007: Verifiable AI-Generated Content Token',
+            title: 'How to simplify UI in Defi, diving into Nex Protocol',
             subtitle: "",
             stage: "stage 3",
             isWorkshop: true,
@@ -1689,7 +1691,7 @@ const Agenda = () => {
                     image: s51.src
                 },
                 {
-                    name: "Anotnio Ramicello",
+                    name: "Antonio Ramicello",
                     image: s59.src
                 },
                 {
@@ -2300,6 +2302,15 @@ const Agenda = () => {
                                                     }}></div>
                                                 ) : ("")
                                             }
+                                            {
+                                                event.id == 78 ? (
+                                                    <Link href="https://lu.ma/n3bwlh76" className="w-fit h-fit flex justify-start items-center">
+                                                        <div className="h-[1.6rem] w-fit px-2 SemiBold rounded bg-red-400" style={{
+
+                                                        }}>Luma</div>
+                                                    </Link>
+                                                ) : ("")
+                                            }
                                         </div>
                                         {
                                             event.title != "" && event.type != "break" ? (
@@ -2326,11 +2337,11 @@ const Agenda = () => {
                                         {
                                             event.speakers.length != 0 ? (
                                                 <p className="text-md text-gray-700 mb-2">
-                                                    Speakers:<br /> 
+                                                    Speakers:<br />
                                                     <span className="Medium">
-                                                    {
-                                                        event.speakers.map(speaker => speaker.name).join(', ')
-                                                    }
+                                                        {
+                                                            event.speakers.map(speaker => speaker.name).join(', ')
+                                                        }
                                                     </span>
                                                 </p>
                                             ) :
@@ -2356,11 +2367,11 @@ const Agenda = () => {
                                         {
                                             event.moderators && event.moderators.length != 0 ? (
                                                 <p className="text-md text-gray-700 mt-4 mb-2">
-                                                    Moderators:<br /> 
+                                                    Moderators:<br />
                                                     <span className="Medium">
-                                                    {
-                                                        event.moderators.map(mod => mod.name).join(', ')
-                                                    }
+                                                        {
+                                                            event.moderators.map(mod => mod.name).join(', ')
+                                                        }
                                                     </span>
                                                 </p>
                                             ) :
@@ -2429,6 +2440,15 @@ const Agenda = () => {
                                                     }}></div>
                                                 ) : ("")
                                             }
+                                            {
+                                                event.id == 78 ? (
+                                                    <Link href="https://lu.ma/n3bwlh76" className="w-fit h-fit flex justify-start items-center">
+                                                        <div className="h-[1.6rem] w-fit px-2 SemiBold rounded bg-red-400" style={{
+
+                                                        }}>Luma</div>
+                                                    </Link>
+                                                ) : ("")
+                                            }
                                         </div>
                                         {
                                             event.title != "" && event.type != "break" ? (
@@ -2455,11 +2475,11 @@ const Agenda = () => {
                                         {
                                             event.speakers.length != 0 ? (
                                                 <p className="text-md text-gray-700 mb-2">
-                                                    Speakers:<br /> 
+                                                    Speakers:<br />
                                                     <span className="Medium">
-                                                    {
-                                                        event.speakers.map(speaker => speaker.name).join(', ')
-                                                    }
+                                                        {
+                                                            event.speakers.map(speaker => speaker.name).join(', ')
+                                                        }
                                                     </span>
                                                 </p>
                                             ) :
@@ -2485,11 +2505,11 @@ const Agenda = () => {
                                         {
                                             event.moderators && event.moderators.length != 0 ? (
                                                 <p className="text-md text-gray-700 mt-4 mb-2">
-                                                    Moderators:<br /> 
+                                                    Moderators:<br />
                                                     <span className="Medium">
-                                                    {
-                                                        event.moderators.map(mod => mod.name).join(', ')
-                                                    }
+                                                        {
+                                                            event.moderators.map(mod => mod.name).join(', ')
+                                                        }
                                                     </span>
                                                 </p>
                                             ) :
@@ -2558,6 +2578,15 @@ const Agenda = () => {
                                                     }}></div>
                                                 ) : ("")
                                             }
+                                            {
+                                                event.id == 78 ? (
+                                                    <Link href="https://lu.ma/n3bwlh76" className="w-fit h-fit flex justify-start items-center">
+                                                        <div className="h-[1.6rem] w-fit px-2 SemiBold rounded bg-red-400" style={{
+
+                                                        }}>Luma</div>
+                                                    </Link>
+                                                ) : ("")
+                                            }
                                         </div>
                                         {
                                             event.title != "" && event.type != "break" ? (
@@ -2582,14 +2611,14 @@ const Agenda = () => {
                                             ) : ""
                                         }
 
-{
+                                        {
                                             event.speakers.length != 0 ? (
                                                 <p className="text-md text-gray-700 mb-2">
-                                                    Speakers:<br /> 
+                                                    Speakers:<br />
                                                     <span className="Medium">
-                                                    {
-                                                        event.speakers.map(speaker => speaker.name).join(', ')
-                                                    }
+                                                        {
+                                                            event.speakers.map(speaker => speaker.name).join(', ')
+                                                        }
                                                     </span>
                                                 </p>
                                             ) :
@@ -2615,11 +2644,11 @@ const Agenda = () => {
                                         {
                                             event.moderators && event.moderators.length != 0 ? (
                                                 <p className="text-md text-gray-700 mt-4 mb-2">
-                                                    Moderators:<br /> 
+                                                    Moderators:<br />
                                                     <span className="Medium">
-                                                    {
-                                                        event.moderators.map(mod => mod.name).join(', ')
-                                                    }
+                                                        {
+                                                            event.moderators.map(mod => mod.name).join(', ')
+                                                        }
                                                     </span>
                                                 </p>
                                             ) :

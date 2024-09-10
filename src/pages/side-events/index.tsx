@@ -114,12 +114,12 @@ function SideEvents() {
                                                 <div className=" bg-white rounded-md p-2 w-full lg:w-fit lg:max-w-7/12 lg:min-h-[13vw] flex flex-col lg:items-start lg:justify-between gap-1 lg:max-w-[30vw]">
                                                     <div className="flex w-full lg:w-fit h-fit flex-col items-start justify-center lg:items-start lg:justify-start">
                                                         <h5 className=" text-black SemiBold text-lg mb-4 lg:mb-2 text-center w-full lg:w-fit lg:text-left">
-                                                            
+
                                                             <span className="lg:hidden block">
                                                                 {event.title}
                                                             </span>
                                                             <span className="hidden lg:block">
-                                                            {event.title.slice(0, 60) + "..."}
+                                                                {event.title.slice(0, 60) + "..."}
                                                             </span>
                                                         </h5>
                                                         <h5 className=" text-black w-full Medium text-md lg:text-sm whitespace-nowrap text-left flex flex-row items-center justify-start gap-1">
@@ -151,35 +151,44 @@ function SideEvents() {
                     )
                 }
             </section>
-            <section className="w-full h-fit relative flex flex-col items-center justify-start pt-4 lg:pt-6">
-                <h6 className="lg:w-1/2 w-10/12 mx-auto text-black p-4 bg-white border-4 border-[#eddb55] text-xl xl:text-2xl Medium leading-normal text-center mt-10 mb-10 lg:mb-8">
-                    {
-                        t('belonqTitle')
-                    } ⏳⌛
-                </h6>
-                <Link href={"https://belonqevent.com/"} target="_blank" className="w-9/12 h-fit flex lg:hidden flex-row items-center justify-center">
-                    <Image src={belonqMobile} alt="belonq merchandise napuleth event" width={100} height={80} className="block lg:hidden w-full h-auto rounded-md shadow-2xl shadow-black"></Image>
-                </Link>
-                <Link href={"https://belonqevent.com/"} target="_blank" className="w-7/12 h-fit hidden lg:flex flex-row items-center justify-center">
-                    <Image src={belonq} alt="belonq merchandise napuleth event" width={100} height={80} className="hidden lg:block w-full h-auto rounded-md shadow-2xl shadow-black"></Image>
-                </Link>
-                <p className="block text-[#2E2E2E] Medium text-2xl lg:text-2xl text-center lg:px-28 leading-normal mt-10 lg:mb-4 lg:mt-14 w-11/12 lg:w-full">
-                    {t('belonqPara')}
-                </p>
-                <p className="block text-[#2E2E2E] Bold text-2xl lg:text-2xl text-center lg:px-28 leading-normal mt-10 lg:mb-4 lg:mt-14 w-11/12 lg:w-full">
-                    Contact:
-                </p>
-                <p className="block text-[#2E2E2E] Medium text-xl lg:text-2xl text-center lg:px-28 leading-normal mt-10 w-11/12 lg:w-full">
-                    Tel: <Link href={"tel:+393462146812"} target="_blank"><span className=" underline">+39 346 214 6812</span> </Link>
-                </p>
-                <p className="block text-[#2E2E2E] Medium text-xl lg:text-2xl text-center lg:px-28 leading-normal mt-4 w-11/12 lg:w-full">
-                    Telegram: <Link href={"https://t.me/IDbelonq"} target="_blank"> <span className=" underline">@IDbelonq</span></Link>
-                </p>
-                <p className="block text-[#2E2E2E] Medium text-xl lg:text-2xl text-center lg:px-28 leading-normal mt-4 w-11/12 lg:w-full">
-                    Instagram: <Link href={"https://www.instagram.com/belonqcommunity"} target="_blank"> <span className=" underline">@belonqcommunity</span> </Link>
-                </p>
+            {
+                events.length > 0 ? (
+                    <section className="w-full h-fit relative flex flex-col items-center justify-start pt-4 lg:pt-6">
+                        <h6 className="lg:w-1/2 w-10/12 mx-auto text-black p-4 bg-white border-4 border-[#eddb55] text-xl xl:text-2xl Medium leading-normal text-center mt-10 mb-10 lg:mb-8">
+                            {
+                                t('belonqTitle')
+                            } ⏳⌛
+                        </h6>
+                        <Link href={"https://belonqevent.com/"} target="_blank" className="w-9/12 h-fit flex lg:hidden flex-row items-center justify-center">
+                            <Image src={belonqMobile} alt="belonq merchandise napuleth event" width={100} height={80} className="block lg:hidden w-full h-auto rounded-md shadow-2xl shadow-black"></Image>
+                        </Link>
+                        <Link href={"https://belonqevent.com/"} target="_blank" className="w-7/12 h-fit hidden lg:flex flex-row items-center justify-center">
+                            <Image src={belonq} alt="belonq merchandise napuleth event" width={100} height={80} className="hidden lg:block w-full h-auto rounded-md shadow-2xl shadow-black"></Image>
+                        </Link>
+                        <p className="block text-[#2E2E2E] Medium text-2xl lg:text-2xl text-center lg:px-28 leading-normal mt-10 lg:mb-4 lg:mt-14 w-11/12 lg:w-full">
+                            {t('belonqPara')}
+                        </p>
+                        <p className="block text-[#2E2E2E] Bold text-2xl lg:text-2xl text-center lg:px-28 leading-normal mt-10 lg:mb-4 lg:mt-14 w-11/12 lg:w-full">
+                            Contact:
+                        </p>
+                        <p className="block text-[#2E2E2E] Medium text-xl lg:text-2xl text-center lg:px-28 leading-normal mt-10 w-11/12 lg:w-full">
+                            Tel: <Link href={"tel:+393462146812"} target="_blank"><span className=" underline">+39 346 214 6812</span> </Link>
+                        </p>
+                        <p className="block text-[#2E2E2E] Medium text-xl lg:text-2xl text-center lg:px-28 leading-normal mt-4 w-11/12 lg:w-full">
+                            Telegram: <Link href={"https://t.me/IDbelonq"} target="_blank"> <span className=" underline">@IDbelonq</span></Link>
+                        </p>
+                        <p className="block text-[#2E2E2E] Medium text-xl lg:text-2xl text-center lg:px-28 leading-normal mt-4 w-11/12 lg:w-full">
+                            Instagram: <Link href={"https://www.instagram.com/belonqcommunity"} target="_blank"> <span className=" underline">@belonqcommunity</span> </Link>
+                        </p>
 
-            </section>
+                    </section>
+                ) : (
+                    <div className="flex flex-row items-center justify-center relative px-10 lg:my-10 w-11/12">
+                        <div></div>
+                    </div>
+                )
+            }
+
             <Footer />
         </main>
     )
