@@ -110,6 +110,9 @@ import s97 from '@assets/Dmitry.jpeg'
 import s98 from '@assets/LucasBonnard.jpg'
 import s99 from '@assets/Paolone.jpg'
 import s100 from '@assets/Lukas Meilhammer.jpg'
+import s101 from '@assets/LucaBertelli.jpg'
+import s102 from '@assets/LorenzoFeroleto.jpg'
+import s103 from '@assets/NicolasRacchi.jpg'
 
 const Agenda = () => {
 
@@ -568,13 +571,13 @@ const Agenda = () => {
         },
         {
             id: 17,
-            title: 'Building a Modular Storage Layer for Ethereum on EIP-4844',
+            title: 'Security & Privacy for a new Web paradigm',
             subtitle: "",
             stage: "stage 2",
             speakers: [
                 {
-                    name: "Qi Zhou",
-                    image: s46.src
+                    name: "Luca Bertelli",
+                    image: s101.src
                 }
             ],
             day: 1,
@@ -998,36 +1001,45 @@ const Agenda = () => {
         },
         {
             id: 33,
-            title: 'Bridging TradFi and DeFi: Challenges, Gaps, and the Path Forward',
+            title: 'TBA',
             subtitle: "",
             isWorkshop: false,
             stage: "main",
             speakers: [
                 {
-                    name: "Francesco Bianchi",
-                    image: s41.src
-                },
-                {
-                    name: "Rosario Napolano",
-                    image: s71.src
-                },
-                {
-                    name: "Gianluca Di Bella",
-                    image: "https://napul.eth.limo/_next/static/media/gianluca.ad2208c0.jpeg"
+                    name: "Maria Maganes",
+                    image: s94.src
                 }
             ],
             day: 2,
             start: "14:40",
-            end: "15:20",
-            type: "panel",
+            end: "15:00",
+            type: "talk",
             lang: "en",
             topics: ["defi"],
-            moderators: [
+        },
+        {
+            id: 333,
+            title: 'Bolt Protocol: Instant Transfers on Ethereum Mainnet',
+            subtitle: "",
+            isWorkshop: false,
+            stage: "main",
+            speakers: [
                 {
-                    name: "Maria Maganes",
-                    image: s94.src
+                    name: "Lorenzo Feroleto",
+                    image: s102.src
+                },
+                {
+                    name: "Nicolas Racchi",
+                    image: s103.src
                 }
-            ]
+            ],
+            day: 2,
+            start: "15:00",
+            end: "15:20",
+            type: "talk",
+            lang: "en",
+            topics: ["defi"],
         },
         {
             id: 34,
@@ -1375,6 +1387,33 @@ const Agenda = () => {
             type: "talk",
             lang: "it",
             topics: ["legal", "it"]
+        },
+        {
+            id: 481,
+            title: 'DeFi vs TradFi: Sfide, Problemi e Cosa ci Riserva il Futuro',
+            subtitle: "",
+            isWorkshop: false,
+            stage: "stage 2",
+            speakers: [
+                {
+                    name: "Francesco Bianchi",
+                    image: s41.src
+                },
+                {
+                    name: "Rosario Napolano",
+                    image: s71.src
+                },
+                {
+                    name: "Gianluca Di Bella",
+                    image: "https://napul.eth.limo/_next/static/media/gianluca.ad2208c0.jpeg"
+                },
+            ],
+            day: 2,
+            start: "16:00",
+            end: "16:40",
+            type: "panel",
+            lang: "it",
+            topics: ["defi"]
         },
 
         // Day 2, Stage 3

@@ -344,12 +344,6 @@ export default function Speakers() {
             aff: "Syntralink"
         },
         {
-            link: "https://x.com/qc_qizhou",
-            img: s46.src,
-            name: "Qi Zhou",
-            aff: "EthStorage"
-        },
-        {
             link: "https://www.linkedin.com/in/silvio-ventre/",
             img: s48.src,
             name: "Silvio Ventre",
@@ -463,12 +457,6 @@ export default function Speakers() {
             img: s66.src,
             name: "Davide Milani",
             aff: "ChainLabo"
-        },
-        {
-            link: "https://www.linkedin.com/in/david-joao-vieira-carvalho-4479b8103/",
-            img: s67.src,
-            name: "David Carvalho",
-            aff: "Naoris Protocol"
         },
         // Here
         {

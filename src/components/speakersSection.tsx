@@ -34,14 +34,12 @@ import s7 from "@assets/AlessandraBrandi.jpg"
 import s8 from "@assets/AndreaPaulillo.jpg"
 import s10 from '@assets/MarcoTullioGiordano.jpeg'
 import s11 from "@assets/ExWhyZee.jpg"
-import s12 from "@assets/DavideZanichelli.png"
 import s13 from "@assets/LorenzoRigatti.jpg"
 import s15 from '@assets/MarcoCastignoli.jpg'
 import s16 from '@assets/MarkRichardson.jpg'
 import s17 from '@assets/PietroRossetto.jpg.jpeg'
 import s18 from '@assets/StefanoDeAngelis.jpg.jpeg'
 import s19 from '@assets/HemillyRodrigues.jpg.jpeg'
-import s20 from '@assets/Alena.jpg'
 import s22 from '@assets/LucaBoiardi.jpg'
 import s23 from '@assets/GianfrancoLeone.jpg.jpeg'
 import s24 from '@assets/BrunoMiranda.jpg'
@@ -65,10 +63,7 @@ import s40 from '@assets/DavideGhezzi.png'
 import s41 from '@assets/FrancescoBianchi.png'
 import s42 from '@assets/MarekKowalski.png'
 import s43 from '@assets/MariaMagenes.jpg.jpeg'
-import s44 from '@assets/FriscoDAnconia.jpg.jpeg'
 import s45 from '@assets/VladyslavDudchenko.png'
-import s46 from '@assets/QiZhou.png'
-import s47 from '@assets/BenedettoBiondi.png'
 import s48 from '@assets/SilvioVentre.jpg.jpeg'
 import s49 from '@assets/LuigiSenese.png'
 import s50 from '@assets/JulieBettens.jpg'
@@ -88,7 +83,6 @@ import s63 from '@assets/PhilippPieper.jpg'
 import s64 from '@assets/LorenzoAmoroso.jpg'
 import s65 from '@assets/Viktor.jpg'
 import s66 from '@assets/DavideMilani.jpg'
-import s67 from '@assets/DavidCarvalho.jpg'
 import s68 from '@assets/DavideCarboni.jpg'
 import s69 from '@assets/GavinThomas.png'
 import s70 from '@assets/MartinLeclerq.jpg'
@@ -353,12 +347,6 @@ function Speakers() {
             aff: "Syntralink"
         },
         {
-            link: "https://x.com/qc_qizhou",
-            img: s46.src,
-            name: "Qi Zhou",
-            aff: "EthStorage"
-        },
-        {
             link: "https://www.linkedin.com/in/silvio-ventre/",
             img: s48.src,
             name: "Silvio Ventre",
@@ -472,12 +460,6 @@ function Speakers() {
             img: s66.src,
             name: "Davide Milani",
             aff: "ChainLabo"
-        },
-        {
-            link: "https://www.linkedin.com/in/david-joao-vieira-carvalho-4479b8103/",
-            img: s67.src,
-            name: "David Carvalho",
-            aff: "Naoris Protocol"
         },
         // Here
         {
