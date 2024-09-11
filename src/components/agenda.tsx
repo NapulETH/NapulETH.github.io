@@ -1699,25 +1699,25 @@ const Agenda = () => {
             lang: "en",
             topics: ["nft", "bitcoin", "art"]
         },
-        {
-            id: 61,
-            title: 'Branding in the Blockchain Era: Navigating NFTs and Web3 for Business Innovation',
-            subtitle: "",
-            stage: "main",
-            isWorkshop: false,
-            speakers: [
-                {
-                    name: "Sara Noggler",
-                    image: s6.src
-                }
-            ],
-            day: 3,
-            start: "14:20",
-            end: "14:40",
-            type: "talk",
-            lang: "en",
-            topics: ["art"]
-        },
+        // {
+        //     id: 61,
+        //     title: 'Branding in the Blockchain Era: Navigating NFTs and Web3 for Business Innovation',
+        //     subtitle: "",
+        //     stage: "main",
+        //     isWorkshop: false,
+        //     speakers: [
+        //         {
+        //             name: "Sara Noggler",
+        //             image: s6.src
+        //         }
+        //     ],
+        //     day: 3,
+        //     start: "14:20",
+        //     end: "14:40",
+        //     type: "talk",
+        //     lang: "en",
+        //     topics: ["art"]
+        // },
         {
             id: 62,
             title: 'NFTs for a Better World: Tokenization, Gaming, and Charity in the Future of Blockchain',
@@ -1739,7 +1739,7 @@ const Agenda = () => {
                 }
             ],
             day: 3,
-            start: "14:40",
+            start: "14:20",
             end: "15:20",
             type: "panel",
             lang: "en",
