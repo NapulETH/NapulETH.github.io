@@ -1795,11 +1795,16 @@ const Agenda = () => {
         },
         {
             id: 65,
-            title: 'Closing',
+            title: 'Closing: Startup Battle Winner, BGA, Core Team Greetings',
             subtitle: "Startup Winner",
             isWorkshop: false,
             stage: "main",
-            speakers: [],
+            speakers: [
+                {
+                    name: 'NapulETH',
+                    image: 'https://belonqevent.com/wp-content/uploads/2024/07/Logo_NapulETH.svg'
+                }
+            ],
             day: 3,
             start: "16:20",
             end: "17:00",
