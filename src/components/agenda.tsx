@@ -243,7 +243,7 @@ const Agenda = () => {
         },
         {
             id: 5,
-            title: ' Making crypto communities funny again',
+            title: ' Making Crypto Communities Funny Again',
             subtitle: "",
             stage: "main",
             speakers: [
@@ -481,7 +481,7 @@ const Agenda = () => {
         },
         {
             id: 13,
-            title: 'Privacy e blockchain: connubio difficile ma possibile',
+            title: 'Privacy e Blockchain: Connubio Difficile ma Possibile',
             subtitle: "",
             stage: "stage 2",
             speakers: [
@@ -514,7 +514,7 @@ const Agenda = () => {
         },
         {
             id: 14,
-            title: 'What to do when tx Reverts and the Revert Reason is Swallowed',
+            title: 'What to do when Tx Reverts and the Revert Reason is Swallowed',
             subtitle: "",
             stage: "stage 2",
             speakers: [
@@ -552,7 +552,7 @@ const Agenda = () => {
         },
         {
             id: 16,
-            title: 'Havoc Network: how to spot consensus bugs in large-scale decentralised infrastructures',
+            title: 'Havoc Network: How to Spot Consensus Bugs in Large-Scale Decentralised Infrastructures',
             subtitle: "",
             stage: "stage 2",
             speakers: [
@@ -749,7 +749,7 @@ const Agenda = () => {
         },
         {
             id: 25,
-            title: 'The critical role of reputation and relationships in web3',
+            title: 'The Critical Role of Reputation and Relationships in Web3',
             subtitle: "",
             stage: "stage 3",
             speakers: [
@@ -801,7 +801,7 @@ const Agenda = () => {
         },
         {
             id: 27,
-            title: 'How to simplify UI in Defi, diving into Nex Protocol',
+            title: 'How to Simplify UI in Defi, Diving into Nex Protocol',
             subtitle: "",
             stage: "stage 3",
             isWorkshop: true,
@@ -982,7 +982,7 @@ const Agenda = () => {
         },
         {
             id: 32,
-            title: ' La semplicità, dalla Finanza Tradizionale a Youhodler',
+            title: ' La Semplicità, dalla Finanza Tradizionale a Youhodler',
             subtitle: "",
             stage: "main",
             isWorkshop: false,
@@ -1001,7 +1001,7 @@ const Agenda = () => {
         },
         {
             id: 33,
-            title: 'DeFi marketing odyssey',
+            title: 'DeFi Marketing Odyssey',
             subtitle: "",
             isWorkshop: false,
             stage: "main",
@@ -1505,7 +1505,7 @@ const Agenda = () => {
         },
         {
             id: 53,
-            title: 'Open Games meet HEVM',
+            title: 'Open Games Meet HEVM',
             subtitle: "",
             stage: "stage 3",
             isWorkshop: true,
