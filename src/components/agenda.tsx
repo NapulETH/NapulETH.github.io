@@ -1444,26 +1444,6 @@ const Agenda = () => {
                 }
             ],
             day: 2,
-            start: "10:00",
-            end: "11:00",
-            type: "workshop",
-            lang: "en",
-            topics: ["ux"]
-        },
-        {
-            id: 51,
-            title: 'Find and Research any Smart Contract & Blockchain Protocol with Cookbook.dev',
-            subtitle: "",
-            stage: "stage 3",
-            isWorkshop: true,
-            badge: "workshop",
-            speakers: [
-                {
-                    name: "Lazar Bucan",
-                    image: s30.src
-                }
-            ],
-            day: 2,
             start: "11:00",
             end: "12:00",
             type: "workshop",
