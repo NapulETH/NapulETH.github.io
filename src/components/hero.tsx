@@ -44,7 +44,7 @@ function Hero() {
             
             <div className="w-fit h-fit flex flex-col xl:flex-row items-center justify-center gap-4 lg:gap-3 mt-6 lg:mt-10">
                 
-                <Link href={'https://drive.google.com/drive/folders/1HYmnsq3EYEPEuYtgUgrACMvSDNn5QR0t?usp=sharing'} className=" relative z-50 p-0 w-fit h-fit">
+                <Link href={'https://drive.google.com/drive/folders/1HYmnsq3EYEPEuYtgUgrACMvSDNn5QR0t?usp=sharing'} target="_blank" className=" relative z-50 p-0 w-fit h-fit">
                     <div className="min-w-[85vw] md:min-w-[50vw] xl:min-w-[15vw] xl:w-[19vw] h-fit flex flex-row items-center justify-center gap-2 py-4 px-12 bg-[#CA75AB] border-4 border-[#eddb55]">
 
 
