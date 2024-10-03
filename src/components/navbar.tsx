@@ -240,13 +240,7 @@ function Navbar() {
 
 
                 </Menu>
-                <Link href={'https://napuleth.mego.tickets/'} className=" hidden lg:block relative z-50 p-0 w-fit h-fit">
-                    <div className="w-fit h-fit flex flex-row items-center justify-center py-4 px-12 bg-[#CA75AB] border-2 border-[#eddb55]">
-                        <h5 className=" text-black Medium text-xl whitespace-nowrap">
-                            {t('buyTicket')} - 25€
-                        </h5>
-                    </div>
-                </Link>
+                
                 <div className="block lg:hidden w-10 aspect-square bg-contain bg-center bg-no-repeat relative z-50" onClick={() => { setMobileMenuOpen(true) }} style={{
                     backgroundImage: `url('${menuIcon.src}')`
                 }}></div>
@@ -255,13 +249,7 @@ function Navbar() {
                         <div className="pt-4 w-full px-4 flex flex-row items-center justify-end">
                             <IoCloseSharp color="#000000" size={35} onClick={() => { setMobileMenuOpen(false) }}></IoCloseSharp>
                         </div>
-                        <Link href={'https://napuleth.mego.tickets/'} className="relative z-50 p-0 w-11/12 h-fit mt-10 mb-2">
-                            <div className="w-full h-fit flex flex-row items-center justify-center py-4 px-12 bg-[#CA75AB] border-4 border-[#eddb55]">
-                                <h5 className=" text-black Medium text-2xl whitespace-nowrap">
-                                    {t('buyTicket')} - 25€
-                                </h5>
-                            </div>
-                        </Link>
+                        
                         <div className="w-11/12 h-fit grid grid-cols-2 auto-rows-auto items-center justify-center gap-y-6 gap-x-2 ">
                             <Link href={'https://napul.eth.limo/'} className=" relative z-50 p-0 w-full h-fit bg-white border-4 border-[#eddb55] py-2" onClick={() => { setMobileMenuOpen(false) }}>
                                 <h5 className=" text-black text-2xl Medium underline-offset-8 text-center">

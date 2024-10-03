@@ -37,35 +37,19 @@ function Hero() {
             <Image src={pescatroie} alt="cloud" className=" w-80 scale-110 hidden lg:block absolute -right-6 top-[48%] " style={{
                 transform: 'scaleX(-1)'
             }}></Image>
-            <h5 className="hidden lg:block text-[#ca75ab] text-4xl lg:text-4xl SemiBold lg:leading-normal text-center relative z-50">
-
-                {t('hero1_1')}<br />{t('hero1_2')}
-            </h5>
-            <h5 className="block lg:hidden text-[#ca75ab] text-3xl w-11/12 lg:text-4xl SemiBold leading-normal lg:leading-normal text-center relative z-50 mt-4">
-                {t('hero1_mobile')}
-            </h5>
-            <p className=" text-[#2E2E2E] Medium lg:mt-6 text-center lg:text-left text-2xl lg:text-2xl mt-6 relative z-50">
-                {t('hero2')}
+            
+            <p className=" text-[#2E2E2E] Medium w-11/12 lg:w-6/12 text-center lg:mt-6 text-2xl lg:text-2xl mt-6 relative z-50">
+                {t('working')}
             </p>
-            <p className=" text-[#2E2E2E] Medium text-center lg:text-left text-2xl lg:text-2xl mt-2 relative z-50s">
-                {t('hero3')}
-            </p>
+            
             <div className="w-fit h-fit flex flex-col xl:flex-row items-center justify-center gap-4 lg:gap-3 mt-6 lg:mt-10">
-                <Link href={'https://napul.eth.limo/agenda.html'} className=" relative z-50 p-0 w-fit h-fit">
-                    <div className="min-w-[85vw] md:min-w-[50vw] xl:min-w-[15vw] xl:w-[19vw] h-fit flex flex-row items-center justify-center gap-2 py-4 px-12 bg-[#CA75AB] border-4 border-[#eddb55] ">
-
-
-                        <h5 className=" text-black Medium text-xl">
-                            Agenda
-                        </h5>
-                    </div>
-                </Link>
+                
                 <Link href={'https://napul.eth.limo/map.html'} className=" relative z-50 p-0 w-fit h-fit">
                     <div className="min-w-[85vw] md:min-w-[50vw] xl:min-w-[15vw] xl:w-[19vw] h-fit flex flex-row items-center justify-center gap-2 py-4 px-12 bg-[#CA75AB] border-4 border-[#eddb55]">
 
 
                         <h5 className=" text-black Medium text-xl whitespace-nowrap">
-                        {t('map')}
+                        {t('photos2024')}
                         </h5>
                     </div>
                 </Link>
