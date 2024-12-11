@@ -32,6 +32,7 @@ export default function AgendaPage() {
 
             </section>
             <Agenda />
+            <div class="w-7/12 h-[0.5px] bg-black/40 mx-auto mt-6 mb-4"></div>  <a class="w-8/12 xl:w-1/2 h-fit mx-auto " href="/side-events.html"><h6 class=" w-full text-black p-4 bg-white border-4 border-[#eddb55] text-xl xl:text-2xl Medium leading-normal text-center my-6">Scopri i Side Events  👉</h6></a>
             <Footer />
         </main>
     );
