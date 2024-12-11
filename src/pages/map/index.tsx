@@ -37,10 +37,10 @@ export default function Map() {
                 </h5>
                 <div className="w-11/12 lg:w-10/12 h-fit flex flex-col lg:flex-row items-center justify-center gap-2 lg:gap-3 mb-6 lg:mb-0">
                     <h6 className={`xl:w-5/12 w-full cursor-pointer p-4 z-50 border-4 border-[#eddb55] text-xl xl:text-2xl SemiBold leading-normal text-center my-0 lg:my-6 ${map == 1 ? 'underline decoration-[#CA75AB] bg-[#CA75AB] text-black underline-offset-8' : " text-black bg-white"}`} onClick={() => { setMap(1) }}>
-                        Santa Maria La Nova
+                        Santa Maria La Nova (S1-S2)
                     </h6>
                     <h6 className={`xl:w-5/12 w-full cursor-pointer p-4 z-50 border-4 border-[#eddb55] text-xl xl:text-2xl SemiBold leading-normal text-center my-0 lg:my-6 ${map == 2 ? 'underline decoration-[#CA75AB] bg-[#CA75AB] text-black underline-offset-8' : " text-black bg-white"}`} onClick={() => { setMap(2) }}>
-                        Palazzo Gravina
+                        Palazzo Gravina (S3)
                     </h6>
                 </div>
                 {
@@ -170,7 +170,7 @@ export default function Map() {
                                         <div className="flex flex-row items-center justify-start gap-2 w-fit">
                                             <div className="w-8 aspect-square bg-[#ffcdcd]"></div>
                                             <p className=" text-[#2E2E2E] Medium text-md lg:text-lg text-left leading-normal">
-                                                Startup Compition Room
+                                                Startup Competition Room
                                             </p>
                                         </div>
                                     </div>
