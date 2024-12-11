@@ -1432,6 +1432,20 @@ const Agenda = () => {
             topics: ['other']
         },
         {
+            id: 544,
+            title: 'Startup Pitch Battle 📈🚀',
+            subtitle: "",
+            stage: "stage 3",
+            speakers: [],
+            day: 2,
+            start: "10:00",
+            end: "16:30",
+            isWorkshop: false,
+            type: "spitch",
+            lang: "",
+            topics: ['other']
+        },
+        {
             id: 50,
             title: 'Empowering Devs: A Practical Guide to User-Centric UI/UX Design in Web3',
             subtitle: "",
@@ -2643,6 +2657,11 @@ const Agenda = () => {
                                             event.type == "break" && event.title == "Breakfast" ? (
                                                 <p className="text-xl text-white Medium my-2 w-full text-center">☕🥐&nbsp;{event.title} &nbsp;🥐☕</p>
                                             ) : event.type == "break" && event.title != "Breakfast" ? (<p className="text-xl text-white Medium my-2 w-full text-center">🍝🍕&nbsp;{event.title} &nbsp;🍕🍝</p>) : ("")
+                                        }
+                                         {
+                                            event.type == "spitch" ? (
+                                                <div class="w-full  bg-[#ca75ab]  rounded-md shadow-sm flex flex-col items-start justify-start py-3 px-4" style="background-color: #ca75ab;"><div class="w-full h-fit flex flex-row items-center justify-start gap-2 mb-3"><p class="text-sm  text-white text-center w-full Medium ">10:00 - 16:30</p></div><p class="text-xl text-white Medium my-2 w-full text-center">Startup Pitch Battle 📈🚀</p></div>
+                                            ) : ""
                                         }
                                         {
                                             event.type != "break" ? (
